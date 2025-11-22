@@ -38,3 +38,8 @@ mobile/android/.gradle/
 *.tmp
 *.temp
 
+# AWS Credentials - NEVER COMMIT THESE
+*credentials*.md
+*CREDENTIALS*.md
+TEMPORARY_CREDENTIALS.md
+AWS_CREDENTIALS*.md
