@@ -1,0 +1,36 @@
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Compiled JavaScript files
+*.js
+*.js.map
+!jest.config.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+

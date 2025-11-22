@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+build/
+dist/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# AWS
+.aws-sam/
+cdk.out/
+.cdk.staging/
+
+# React Native
+mobile/android/app/build/
+mobile/ios/build/
+mobile/.gradle/
+mobile/android/.gradle/
+
+# Temporary files
+*.tmp
+*.temp
+
